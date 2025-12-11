@@ -23,6 +23,7 @@ project_client = AIProjectClient(
 #comment to trigger changes
 #comment
 #dddd
+#dd
 # Define the set of user-defined callable functions to use as tools (from MCP client)
 functions = create_function_tool_for_agent("customer_loyalty")
 toolset = ToolSet()
